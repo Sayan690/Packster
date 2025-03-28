@@ -14,6 +14,8 @@ PACKSTER is a powerful exfiltration tool designed for demonstrating efficient da
 
 [![Packster Demo]([https://img.youtube.com/vi/r4g577TrCSw/maxresdefault.jpg](https://raw.githubusercontent.com/Sayan690/Packster/refs/heads/main/resources/packster.png))](https://www.youtube.com/watch?v=r4g577TrCSw)
 
+[![Watch the video](https://raw.githubusercontent.com/Sayan690/Packster/refs/heads/main/resources/packster.png)](https://www.youtube.com/watch?v=rXOXy-RJSDQ)
+
 ## Installation
 ### Prerequisites
 Ensure you have Python installed on your system. PACKSTER requires Python 3.x.
