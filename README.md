@@ -12,7 +12,7 @@ PACKSTER is a powerful exfiltration tool designed for demonstrating efficient da
 
 ## Watch The Demo
 
-[![Packster Demo](https://img.youtube.com/vi/r4g577TrCSw/maxresdefault.jpg)](https://www.youtube.com/watch?v=r4g577TrCSw)
+[![Packster Demo]([https://img.youtube.com/vi/r4g577TrCSw/maxresdefault.jpg](https://raw.githubusercontent.com/Sayan690/Packster/refs/heads/main/resources/packster.png))](https://www.youtube.com/watch?v=r4g577TrCSw)
 
 ## Installation
 ### Prerequisites
